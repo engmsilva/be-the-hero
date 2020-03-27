@@ -1,6 +1,6 @@
 # Be The Hero
 
-A aplicação cadastra ONG's que ajuda animais. Os pedidos de ajuda financeiro das ONG's são registrado como "caso".
+Be The Hero é um aplicação usada para cadastrar ONG's que ajuda animais. Os pedidos de ajuda financeiro das ONG's são registrado como "caso".
 
 O backend foi constriudo como uma API Rest para servi as aplicação da web e mobile.
 
