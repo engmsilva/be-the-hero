@@ -16,23 +16,64 @@ Essas instruções fornecerão uma cópia do projeto em execução na sua máqui
 
 ### Requisitos
 
-What things you need to install the software and how to install them
-
 ```
 - git 2.20.1
 - node v12.16.1
 - npm 6.14.3
 ```
 
-### Installing
+### Instalação
 
-A step by step series of examples that tell you how to get a development env running
+Exemplos passo a passo para criar um ambiente de desenvolvimento em execução
 
-Say what the step will be
+Primeiro clone o repositório do projeto.
 
 ```
-Give the example
+git clone https://github.com/engmsilva/be-the-hero.git
 ```
+
+Instalar e executar o Backend
+
+```
+cd backend
+npm install
+npm start
+```
+
+Instalar e executar o Frontend
+
+```
+cd frontend
+npm install
+npm start
+```
+
+Instalar e executar o Mobile
+
+Para testar a aplicação em um smartphone físico com Android, entre na Play Store e instale o app [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR).
+
+Edit o arquivo abaixo com o endereço IP do computador que esta executando o backend
+
+```
+mobile/src/services/api.js
+
+import axios from 'axios';
+
+const api = axios.create({
+    baseURL: 'http://192.168.0.23:3333'
+})
+
+export default api;
+
+```
+cd mobile
+npm install
+```
+
+
+
+
+
 
 And repeat
 
