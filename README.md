@@ -87,7 +87,7 @@ O projeto deverá ser transferido para o smartpohe e o App executará automatica
 
 Foram criados dois teste para realizar testes unitário e de integração.
 
-Os testes foram relizados usando a ferramenta [Jest](https://jestjs.io/) e [Super Test](https://github.com/visionmedia/supertest).
+Os testes foram relizados usando as ferramentas [Jest](https://jestjs.io/) e [Super Test](https://github.com/visionmedia/supertest).
 
 O teste unitário foi aplicado em uma função que gera numeros rândomicos com uma quantidade de numeros conhecidos.
 
