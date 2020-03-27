@@ -1,14 +1,14 @@
 # Be The Hero
 
-Projeto construido durante a Semana OmniStack 11, promovido pela [RocketSeat ](https://rocketseat.com.br/week/inscricao/11.0). Foi construindo uma aplicação completa com Node.js no back-end, ReactJS no front-end e React Native no mobile.
+Aplicação com Node.js no back-end, ReactJS no front-end e React Native no mobile.
 
-O projeto se trata de uma aplicação para cadastro de ONG's que ajuda animais. Os pedidos de ajuda financeiro das ONG's são registrado como "caso".
+A aplicação cadastra ONG's que ajuda animais. Os pedidos de ajuda financeiro das ONG's são registrado como "caso".
 
 O backend foi constriudo como uma API Rest para servi as aplicação da web e mobile.
 
-Os registro das ONG's e seus casos são registrado na aplicação do frontend.
+Os registro das ONG's e seus casos são registrados somente na aplicação frontend.
 
-A aplicação mobile exibe todos os casos com a opção de envio de uma mensagem de e-mail ou WhatsApp para manisfestar interesse em fazer doação para a ONG. 
+A aplicação mobile exibe todos os casos com opção de envio de mensagens de e-mail ou WhatsApp para manisfestar interesse em fazer doação para a ONG. 
 
 ## Começando
 
