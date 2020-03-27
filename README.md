@@ -2,7 +2,7 @@
 
 Projeto construido durante a Semana OmniStack 11, promovido pela [RocketSeat ](https://rocketseat.com.br/week/inscricao/11.0). Foi construindo uma aplicação completa com Node.js no back-end, ReactJS no front-end e React Native no mobile.
 
-O projeto se trata de uma aplicação para cadastro de ONG's de ajuda animais. Os pedidos de ajuda financeiro das ONG's são registrado como "caso".
+O projeto se trata de uma aplicação para cadastro de ONG's que ajuda animais. Os pedidos de ajuda financeiro das ONG's são registrado como "caso".
 
 O backend foi constriudo como uma API Rest para servi as aplicação da web e mobile.
 
@@ -92,7 +92,6 @@ O teste de integração foi aplicado realizando uma requisição para a criaçã
 Comandos para executar o teste.
 ```
 cd backend
-npm install
 npm test
 ```
 
