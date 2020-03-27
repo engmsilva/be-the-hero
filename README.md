@@ -1,7 +1,5 @@
 # Be The Hero
 
-Aplicação com Node.js no back-end, ReactJS no front-end e React Native no mobile.
-
 A aplicação cadastra ONG's que ajuda animais. Os pedidos de ajuda financeiro das ONG's são registrado como "caso".
 
 O backend foi constriudo como uma API Rest para servi as aplicação da web e mobile.
@@ -9,6 +7,12 @@ O backend foi constriudo como uma API Rest para servi as aplicação da web e mo
 Os registro das ONG's e seus casos são registrados somente na aplicação frontend.
 
 A aplicação mobile exibe todos os casos com opção de envio de mensagens de e-mail ou WhatsApp para manisfestar interesse em fazer doação para a ONG. 
+
+# Construída com
+
+- Node.js no back-end;
+- ReactJS no front-end e;
+- React Native no mobile.
 
 ## Começando
 
