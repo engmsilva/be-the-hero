@@ -10,9 +10,9 @@ A aplicação mobile exibe todos os casos com opção de envio de mensagens de e
 
 # Construído com
 
-- Node.js e Express no back-end;
-- ReactJS no front-end e;
-- React Native no mobile.
+- [Node.js](https://nodejs.org/) e [Express](https://expressjs.com/) no back-end;
+- ReactJS(https://reactjs.org/) no front-end e;
+- [React Native](https://reactnative.dev/) no mobile.
 
 ## Começando
 
@@ -85,9 +85,9 @@ O projeto deverá ser transferido para o smartpohe e o App executará automatica
 
 ## Executando testes no Backend
 
-Foram criados dois teste para exemplificar como são realizados os teste unitário e o teste de integração.
+Foram criados dois teste para realizar testes unitário e de integração.
 
-Os testes foram relizados usando a ferramenta Jest e Super Test.
+Os testes foram relizados usando a ferramenta [Jest](https://jestjs.io/) e [Super Test](https://github.com/visionmedia/supertest).
 
 O teste unitário foi aplicado em uma função que gera numeros rândomicos com uma quantidade de numeros conhecidos.
 
