@@ -32,7 +32,7 @@ Primeiro clone o repositório do projeto.
 git clone https://github.com/engmsilva/be-the-hero.git
 ```
 
-Instalar e executar o Backend
+Instale e execute o Backend
 
 ```
 cd backend
@@ -40,7 +40,7 @@ npm install
 npm start
 ```
 
-Instalar e executar o Frontend
+Instale e execute o Frontend
 
 ```
 cd frontend
@@ -48,7 +48,7 @@ npm install
 npm start
 ```
 
-Instalar e executar o Mobile
+Instale e execute o Mobile
 
 Para testar a aplicação em um smartphone físico com Android, entre na Play Store e instale o app [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR).
 
@@ -58,8 +58,6 @@ Edit o arquivo abaixo com o endereço IP do computador que esta executando o bac
 mobile/src/services/api.js
 ```
 ```js
-mobile/src/services/api.js
-
 import axios from 'axios';
 
 const api = axios.create({
@@ -69,14 +67,15 @@ const api = axios.create({
 export default api;
 
 ```
+execute o comando abaixo para iniciar e abrir a interface no navegado do Metro Bundler do Expo
+
+```
 cd mobile
 npm install
 ```
 
-
-
-
-
+Faça a leitura do QR code com a câmera do smartphone na página de interface do Metro Bundler do Expo.
+Após a trasnferência do projeto para o smartpohe e App deverá executar automaticamente.
 
 And repeat
 
