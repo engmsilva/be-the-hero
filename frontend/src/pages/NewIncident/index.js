@@ -13,7 +13,7 @@ export default function NewIncident() {
     const [value, setValue] = useState('');   
     const history = useHistory();
 
-    const ongId = localStorage.getItem('ongI');
+    const ongId = localStorage.getItem('ongId');
 
    async function handleNewIncident(e){
         e.preventDefault();
@@ -22,7 +22,7 @@ export default function NewIncident() {
             title,
             description,
             value,            
-        }
+        }        
 
         try {
 
