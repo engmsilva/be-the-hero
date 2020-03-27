@@ -67,75 +67,33 @@ const api = axios.create({
 export default api;
 
 ```
-execute o comando abaixo para iniciar e abrir a interface no navegado do Metro Bundler do Expo
+Execute o comando abaixo para iniciar e abrir a interface no navegado do Metro Bundler do Expo
 
 ```
 cd mobile
 npm install
+npm start
 ```
 
 Faça a leitura do QR code com a câmera do smartphone na página de interface do Metro Bundler do Expo.
-Após a trasnferência do projeto para o smartpohe e App deverá executar automaticamente.
+O projeto deverá ser transferido para o smartpohe e o App executará automaticamente.
 
-And repeat
 
+## Executando testes no Backend
+
+Foram criados dois teste para exemplificar como são realizados os teste unitário e o teste de integração.
+
+Os testes foram relizados usando a ferramenta Jest e Super Test.
+
+O teste unitário foi aplicado em uma função que gera numeros rândomicos com uma quantidade de numeros conhecidos.
+
+O teste de integração foi aplicado realizando uma requisição para a criação de um registro no banco de dados. Foi configurado uma banco de dados de teste separado do banco de dados da aplicação.
+
+Comandos para executar o teste.
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+cd backend
+npm install
+npm test
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
