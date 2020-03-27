@@ -8,9 +8,9 @@ Os registro das ONG's e seus casos são registrados somente na aplicação front
 
 A aplicação mobile exibe todos os casos com opção de envio de mensagens de e-mail ou WhatsApp para manisfestar interesse em fazer doação para a ONG. 
 
-# Construída com
+# Construído com
 
-- Node.js no back-end;
+- Node.js e Express no back-end;
 - ReactJS no front-end e;
 - React Native no mobile.
 
