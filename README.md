@@ -57,7 +57,7 @@ Instale e execute o Mobile
 
 Para testar a aplicação em um smartphone físico com Android, entre na Play Store e instale o app [Expo](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR).
 
-Edit o arquivo abaixo com o endereço IP do computador que esta executando o backend
+Edite o arquivo abaixo com o endereço IP do computador que esta executando o backend
 
 ```
 mobile/src/services/api.js
@@ -66,7 +66,7 @@ mobile/src/services/api.js
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://192.168.0.23:3333'
+    baseURL: 'http://192.168.0.23:3333' // edite está linha com o IP do servidor backend
 })
 
 export default api;
