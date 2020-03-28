@@ -10,7 +10,7 @@ A aplicação mobile exibe todos os casos com opção de envio de mensagens de e
 
 # Construído com
 
-- [Node.js](https://nodejs.org/), [ORM Knexjs](http://knexjs.org/) e [Express](https://expressjs.com/) no back-end;
+- [Node.js](https://nodejs.org/), [Query Build Knexjs](http://knexjs.org/) e [Express](https://expressjs.com/) no back-end;
 - [ReactJS](https://reactjs.org/) no front-end e;
 - [React Native](https://reactnative.dev/) no mobile.
 
